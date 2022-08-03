@@ -1,0 +1,15 @@
+---
+title: Open House Gdansk - Poprzednie edycje
+layout: 'base.njk'
+---
+
+Poprzednie Edycje
+
+
+{%- for program in collections.program -%}
+    <hr>
+    <h3>{{program.data.title}}</h3>
+    <p> {{program.date | date}}</p>
+    <a href="{{program.url}}">Przeczytaj więcej</a>
+    <hr>
+{%- endfor -%}

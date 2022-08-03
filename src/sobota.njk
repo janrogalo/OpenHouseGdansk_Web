@@ -1,0 +1,14 @@
+---
+title: Open House Gdansk - Poprzednie edycje
+layout: 'base.njk'
+---
+
+Poprzednie Edycje
+
+
+{%- for sobota in collections.sobota -%}
+    <hr>
+    <h3>{{sobota.data.title}}</h3>
+    <a href="{{sobota.url}}">Przeczytaj więcej</a>
+    <hr>
+{%- endfor -%}

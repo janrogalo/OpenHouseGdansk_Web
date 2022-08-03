@@ -1,0 +1,14 @@
+---
+title: Open House Gdansk - Poprzednie edycje
+layout: 'base.njk'
+---
+
+Poprzednie Edycje
+
+
+{%- for niedziela in collections.niedziela -%}
+    <hr>
+    <h3>{{niedziela.data.title}}</h3>
+    <a href="{{niedziela.url}}">Przeczytaj więcej</a>
+    <hr>
+{%- endfor -%}
