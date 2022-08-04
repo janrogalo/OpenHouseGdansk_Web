@@ -8,6 +8,7 @@
     <title> Open House Gdansk - Poprzednie edycje</title>
     <link rel="stylesheet" href="/style.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
 </head>
 <body>
 <header class="header">
@@ -152,14 +153,80 @@
     </nav>
 </header>
 
+<main>
  
 Poprzednie Edycje<hr>
     <h3>Event nidzielny</h3>
     <a href="/content/2022-07-12-Niedziela-Event/">Przeczytaj więcej</a>
     <hr>
+</main>
 <footer>
-    TO JEST Footer
+    <div class="footer-block">
+        <div class="footer-info">
+            <p>Open House Gdynia 2022 &copy;<br>
+                Gdynia, Wzgórze Bernadowo 272</p>
+            <p> e-mail: <a  href="mailto:info@ohgdynia.org">info@ohgdynia.org</a></p>
+            <p>web: <a href="http://janrogalo.dev">Jan Rogalo</a><br>
+
+        </div>
+
+        <div class="footer-float-right">
+
+            <div class="footer-logos-inline">
+                <div class="footer-logos">
+                    <h4>Organizator</h4>
+                    <div class="list">
+                        <a href="https://www.facebook.com/Fundacja-Pura-474586729418170/"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="pura"></span></a>				</div>
+                </div>
+
+                <div class="footer-logos">
+                    <h4>Mecenat</h4>
+                    <div class="list">
+                        <a href="http://www.investkomfort.pl/"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="invest"></span></a>				</div>
+                </div>
+            </div>
+
+            <div class="footer-logos-inline">
+                <div class="footer-logos">
+                    <h4>Patroni medialni</h4>
+                    <div class="list">
+                        <a href="https://www.trojmiasto.pl/"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="trojmiasto" ></span></a>
+                        <a href="http://wyborcza.pl/0,0.html"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="gazeta" ></span></a>
+                        <a href="http://prestiztrojmiasto.pl/"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="prestiz" ></span></a>
+                        <a href="http://eskaem.pl"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="Eskaem kwadraty"></span></a>
+                        <a href="https://radioklang.pl"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="Klang"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-logos-inline">
+                <div class="footer-logos">
+                    <h4>Partnerzy</h4>
+                    <div class="list">
+                        <a href="https://www.trojmiasto.pl/"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="trojmiasto" ></span></a>
+                        <a href="http://wyborcza.pl/0,0.html"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="gazeta" ></span></a>
+                        <a href="http://prestiztrojmiasto.pl/"><span><img src="/assets/img/edfd400e4b14554ec81318e618753aa8.png" alt="prestiz" ></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
+
+
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+<script>console.log('here')</script>
+<script src="/assets/scripts/navbar.js"></script>
+<script>console.log('here')</script>
 </body>
 </html>
