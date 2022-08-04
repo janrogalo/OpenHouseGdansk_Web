@@ -5,16 +5,26 @@ layout: 'base.njk'
 
 <h1>POPRZEDNIE EDYCJE</h1>
 
-<div>
-
-
-</div>
 
 
 {%- for previous in collections.previous -%}
-    <hr>
-    <h3>{{previous.data.title}}</h3>
-    <p> {{previous.date | date}}</p>
-    <a href="{{previous.url}}">Przeczytaj więcej</a>
+
+    <div class="section-services margin-top">
+        <div class="section-content">
+            <div class="section-image">
+                <img class="previous-icon" src="{{ previous.data.image }}">
+            </div>
+            <div class="section-text">
+                <h3>{{previous.data.title}}</h3>
+                <p> {{previous.data.description}}</p>
+                <a href="{{previous.url}}">Przeczytaj więcej</a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
     <hr>
 {%- endfor -%}
