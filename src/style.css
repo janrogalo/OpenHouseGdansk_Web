@@ -195,7 +195,19 @@ ul li ul.dropdown li {
 .section-text{
     margin-left: 20px;
     margin-right: 6vw;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.full-text{
+    margin-left: 20px;
+    margin-right: 6vw;
+
+}
+
+
+
 
 .previous-icon{
     width: 350px;
@@ -204,6 +216,58 @@ ul li ul.dropdown li {
 .margin-top{
     margin-top: 30px;
 }
+
+.border-bottom{
+    padding-bottom: 10px;
+    border-bottom: 2px black solid;
+}
+
+
+/*///////////////////////!*Wrapper*!///////////////////////////*/
+
+.wrapper{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+
+.events{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.event{
+    width: 200px;
+    height: 250px;
+    margin: 0 10px 10px 0px;
+}
+
+.sidebar{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+}
+
+.display-toggle{
+    display: inline;
+    padding-bottom: 30px;
+}
+
+.event-title{
+    padding: 10px 10px 10px 0;
+}
+
+
+
+
+
+
 
 
 /*// IMAGE OVERLAY*/
@@ -220,7 +284,7 @@ ul li ul.dropdown li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .image__img {
@@ -250,7 +314,6 @@ ul li ul.dropdown li {
 
 .image__overlay--primary {
     background: #FFF;
-    border-bottom: black 1px solid;
 
 }
 
@@ -260,7 +323,7 @@ ul li ul.dropdown li {
 }
 
 .image__overlay:hover {
-    opacity: 1;
+    opacity: 0.9;
 }
 
 .image__overlay:hover > * {
@@ -277,11 +340,74 @@ ul li ul.dropdown li {
 }
 
 
+/*////////////////////////////////// EVENTY-GRID OVERLAY //////////////////////////*/
 
 
+.grid {
+    position: relative;
+    width: 200px;
+    height: 230px;
+    margin: 10px;
+    overflow-y: hidden;
+}
 
+.grid__display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
 
+.grid__img {
+    display: block;
+    height: 100%;
+}
+
+.grid__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.grid__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.grid__overlay--primary {
+    background: #FFF;
+
+}
+
+.grid__overlay > * {
+    transform: translateY(200px);
+    transition: transform 0.25s;
+}
+
+.grid__overlay:hover {
+    opacity: 0.9;
+}
+
+.grid__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.grid__title {
+    font-size: 1em;
+}
+
+.grid__description {
+    font-size: 1em;
+    margin-top: 0.25em;
+}
 
 
 
@@ -450,6 +576,8 @@ footer a:hover{
     .previous-icon{
         width: 300px;
     }
+
+
 
 
     footer{

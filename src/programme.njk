@@ -3,13 +3,65 @@ title: Open House Gdansk - Poprzednie edycje
 layout: 'base.njk'
 ---
 
-Poprzednie Edycje
+<h1>Program</h1>
+
+<div class="wrapper">
+<div class="events">
 
 
-{%- for program in collections.program -%}
-    <hr>
-    <h3>{{program.data.title}}</h3>
-    <p> {{program.date | date}}</p>
-    <a href="{{program.url}}">Przeczytaj więcej</a>
-    <hr>
-{%- endfor -%}
+
+
+
+
+
+    {%- for program in collections.program -%}
+
+        <div class="grid event">
+            <h3 class="event-title">{{program.data.title}}</h3>
+          <img class="grid__img" src="/assets/img/OHG7/1.jpg" alt="Bricks">
+            <div class="grid__overlay grid__overlay--primary">
+                <div class="grid__title"><h3>{{program.data.title}}</h3></div>
+                <p class="grid__description">
+                <p>Lokalizacja eventu</p>
+                    <a href="{{program.url}}">Przeczytaj więcej</a>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    {%- endfor -%}
+
+</div>
+<div class="sidebar">
+    <div class="display-toggle">
+    <a href="/programme/">Grid</a>
+    <a href="/map/">Map</a>
+    </div>
+
+    <button>Sobota</button>
+    <button>Niedziela</button>
+
+    <p>Typ wydarzenia</p>
+
+    <button>Zwiedzanie</button>
+    <button>Spacer</button>
+    <button>Spotkanie</button>
+    <button>Wystawa</button>
+    <button>Koncert</button>
+</div>
+</div>
+
+
+
+
+
+
+
+
