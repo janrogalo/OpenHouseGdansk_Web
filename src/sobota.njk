@@ -3,12 +3,61 @@ title: Open House Gdansk - Poprzednie edycje
 layout: 'base.njk'
 ---
 
-Poprzednie Edycje
+<h1>Program</h1>
 
+<div class="wrapper">
+    <div class="events">
 
-{%- for sobota in collections.sobota -%}
-    <hr>
-    <h3>{{sobota.data.title}}</h3>
-    <a href="{{sobota.url}}">Przeczytaj więcej</a>
-    <hr>
-{%- endfor -%}
+        {%- for program in collections.program -%}
+            {% if program.data.tags.includes("sobota") %}
+
+                <div class="grid event" data-tag="{{program.data.tags}}">
+                    <h3 class="event-title">{{program.data.title}}</h3>
+                    <img class="grid__img" src="/assets/img/OHG7/1.jpg" alt="Bricks">
+                    <div class="grid__overlay grid__overlay--primary">
+                        <div class="grid__title"><h3>{{program.data.title}}</h3></div>
+                        <p class="grid__description">
+                        <p>Lokalizacja eventu</p>
+                        <a href="{{program.url}}">Przeczytaj więcej</a>
+                        </p>
+                    </div>
+                </div>
+            {% endif %}
+        {%- endfor -%}
+
+    </div>
+    <div class="sidebar">
+        <div class="display-toggle">
+            <a href="/programme/"><svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="47px" viewBox="0 0 21 47" xml:space="preserve">
+						<path fill="#000000" d="M0,22.009h8.994v-8.995H0V22.009z M5.996,19.011H2.998v-2.998h2.998V19.011z"/>
+                    <path fill="#000000" d="M12.018,22.009h8.994v-8.995h-8.994V22.009z M18.014,19.011h-2.998v-2.998h2.998V19.011z"/>
+                    <path fill="#000000" d="M0,34h8.994v-8.993H0V34z M5.996,31.003H2.998v-2.998h2.998V31.003z"/>
+                    <path fill="#000000" d="M12.018,34h8.994v-8.993h-8.994V34z M18.014,31.003h-2.998v-2.998h2.998V31.003z"/>
+					</svg></a>
+            <a href="/map/">	<svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="47px" viewBox="0 0 21 47" xml:space="preserve">
+						<path fill="#000000" d="M16.031,13.016l0.484-1.237l0.014-0.036c0.703-1.948,0.463-4.161-0.645-5.917
+							c-1.057-1.68-2.77-2.756-4.697-2.952c-0.452-0.047-0.927-0.046-1.374,0c-1.93,0.196-3.643,1.272-4.7,2.953
+							c-1.105,1.758-1.344,3.97-0.626,5.956l0.483,1.234H0v20.963V34h20.998v-0.021h0.01V13.016H16.031z M7.655,7.423
+							c0.569-0.906,1.444-1.462,2.466-1.566c0.124-0.013,0.251-0.019,0.379-0.019c0.129,0,0.256,0.007,0.383,0.019
+							c1.02,0.104,1.895,0.66,2.463,1.565c0.615,0.977,0.752,2.203,0.367,3.284l-3.209,8.199l-3.209-8.181
+							C6.903,9.639,7.037,8.404,7.655,7.423 M18,22.98H2.998V16.014h3.149l4.359,11.113l4.352-11.113H18V30.98z"/>
+					</svg></a>
+        </div>
+
+        <div class="button-menu">
+            <h4>Dzień:</h4>
+            <button class="button"><a href="/sobota/">Sobota</a></button>
+            <button class="button"><a href="/niedziela/">Niedziela</a></button>
+        </div>
+
+        <div class="button-menu">
+            <h4>Tag:</h4>
+            <button class="button" id="zwiedzanie">Zwiedzanie</button>
+            <button class="button" id="spacer">Spacer</button>
+            <button class="button" id="spotkanie">Spotkanie</button>
+            <button class="button" id="wystawa">Wystawa</button>
+            <button class="button" id="koncert">Koncert</button>
+            <button class="button" id="wszystkie">Wszystkie</button>
+        </div>
+    </div>
+</div>

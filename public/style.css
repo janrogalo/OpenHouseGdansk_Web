@@ -247,24 +247,55 @@ ul li ul.dropdown li {
 }
 
 .sidebar{
-    background-color: gold;
     display: flex;
     flex-direction: column;
     width: 20%;
+    min-width: 100px;
     padding: 10px;
+
 }
 
 .display-toggle{
     display: inline;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
+
+.display-toggle a{
+    padding: 10px 10px;
+}
 .event-title{
     padding: 10px 10px 10px 0;
 }
 
+.button-menu{
+    margin: 20px 0;
+}
 
+.button-menu h4{
+    margin-bottom: 10px;
+}
+.button{
+    padding: 10px;
+    background-color: #FFFFFF;
+    width: 120px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
 
+.button:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.button a{
+    color: black;
+    text-decoration: none;
+}
+
+.button a:hover{
+    color: white;
+}
 
 
 
@@ -617,6 +648,60 @@ footer a:hover{
 
 
 }
+
+
+@media (max-width: 870px){
+    .wrapper{
+        width: 90vw;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+
+    .events{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .event{
+        width: 200px;
+        height: 250px;
+        margin: 0 10px 10px 0px;
+    }
+
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
+
+    }
+
+    .display-toggle{
+        display: inline;
+        padding-bottom: 5px;
+    }
+
+
+    .display-toggle a{
+        padding: 10px 10px;
+    }
+    .event-title{
+        padding: 10px 10px 10px 0;
+    }
+
+    .button-menu{
+        margin: 10px 0;
+    }
+}
+
+
+
 
     /*/////////////////////////// RESPONSIVE CODES FOR 560PX ///////////////////////////*/
 
