@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
-
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #FFFB36;
 }
@@ -23,7 +21,7 @@ body{
 }
 
 main {
-    margin: 0px 70px;
+    margin: 0 70px;
 }
 
 .header .logo:hover{
@@ -55,31 +53,27 @@ p{
 nav{
     display: flex;
     align-items: center;
-    margin-left: 4.688vw;
     background: #FFFB36;
+    margin-left: 4.668vw;
 }
 
 .nav-links{
     display: flex;
     font-family: obviously, sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 14px;
     padding-left: 40px;
 }
 
 .logo{
-    background-color: skyblue;
-    width:40px;
-    height: 40px;
+    width:60px;
+    height: 60px;
 }
 .nav-links a{
     color: #000;
 }
 
-
 .nav-links button a{
-    color: #fff;
+    color: #000;
 }
 
 .nav-links button a:hover{
@@ -90,7 +84,6 @@ nav{
     position: absolute;
     left: 270px;
     justify-content: left;
-
 }
 
 .right {
@@ -112,11 +105,12 @@ nav{
     padding-right: 30px;
     text-transform: uppercase;
 
+
 }
 .nav-links a{
     text-decoration: none;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .img-margins{
@@ -147,14 +141,14 @@ nav{
     position: absolute;
     height: 60px;
     top: 5.9rem;
-    left: 198px;
+    left: 247px;
     width: 100%;
     z-index: 999;
     padding-top: 10px;
 }
 
 .dropdown-program {
-    left: 286px;
+    left: 355px;
 }
 
 ul li:hover ul.dropdown {
@@ -163,6 +157,9 @@ ul li:hover ul.dropdown {
 ul li ul.dropdown li {
     display: block;
     margin-top: 5px;
+    font-size: 11px;
+}
+.dropdown-item a{
     font-size: 11px;
 }
 
@@ -183,14 +180,10 @@ ul li ul.dropdown li {
 }
 
 
-
-
-
-
-
 .section-services p {
     margin-bottom: 10px;
     line-height: 1.5;
+    font-size: 13px;
     color: #000;
     font-family: obviously, sans-serif;
     font-style: normal;
@@ -203,7 +196,6 @@ ul li ul.dropdown li {
     color: #000;
     font-family: obviously, sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 1.571vw;
 };
 
@@ -505,7 +497,6 @@ footer{
     padding: 80px;
 }
 
-
 .footer-info{
     display: flex;
     flex-direction: column;
@@ -514,14 +505,18 @@ footer{
 
 
 footer p{
-    font-size: 14px;
+    font-size: 13px;
     padding-bottom: 10px
 }
 
 footer h4{
     padding-left: 20px;
-    margin-bottom 40px;
     text-decoration: underline;
+    font-size: 15px;
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
 }
 
 footer a{
@@ -543,7 +538,7 @@ footer a{
 
 
 .list img{
-    width: 140px;
+    height: 85px;
     padding: 20px;
 }
 
@@ -628,12 +623,7 @@ footer a:hover{
         margin-bottom: 40px;
     }
 
-    .section-hero p,
-    .section-services p {
-        font-size: 0.9rem;
-        margin-bottom: 20px;
-        line-height: 1.5;
-    }
+
 
     main {
         margin: 0px 60px;
@@ -658,6 +648,7 @@ footer a:hover{
 
     footer{
         justify-content: left;
+        margin-left: 4.668vw    ;
     }
 
     .footer-block{
