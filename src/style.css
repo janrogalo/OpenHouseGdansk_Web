@@ -730,11 +730,6 @@ footer a:hover{
 @media (max-width: 870px){
 
 
-    .event{
-        width: 200px;
-        height: 250px;
-        margin: 0 20px 20px 0px;
-    }
 
     .display-toggle{
         display: inline;
