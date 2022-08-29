@@ -281,10 +281,10 @@ ul li ul.dropdown li {
 
 .event-h1{
     color: #000;
-    font-family: obviously, sans-serif;
-    font-weight: 400;
+    font-family: swear-display-cilati, sans-serif;
+    text-transform: uppercase;
     font-style: normal;
-    font-size: 1.571vw;
+    font-size: 3.571vw;
     margin-bottom: 30px;
 }
 
@@ -294,7 +294,7 @@ ul li ul.dropdown li {
     font-family: obviously, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.271vw;
+    font-size: 20px;
     margin-bottom: 10px;
     text-decoration: underline;
 }
@@ -366,7 +366,7 @@ ul li ul.dropdown li {
 
 .image {
     position: relative;
-    width: 300px;
+    width: auto;
     height: 200px;
     margin: 10px;
     overflow-y: hidden;
@@ -376,6 +376,8 @@ ul li ul.dropdown li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 20px;
 }
 
 .image__img {
@@ -507,6 +509,7 @@ ul li ul.dropdown li {
     font-family: obviously, sans-serif;
     font-weight: 600;
     margin-top: 0.25em;
+    text-align: center;
 }
 
 
@@ -715,15 +718,15 @@ footer a:hover{
         flex-wrap: wrap;
     }
 
-
-
-
-
     .section-content{
         display: flex;
         flex-direction: column;
     }
 
+   .event-h1{
+       font-size: 6.571vw;
+       margin-bottom: 30px;
+   }
 
 }
 
@@ -773,6 +776,19 @@ footer a:hover{
     .button-menu{
         margin: 10px 0;
     }
+
+
+
+    .image__display .image:first-child {
+        display:block;
+    }
+    .image__display .image{
+        display:none;
+    }
+
+
+
+
 }
 
 

@@ -12,7 +12,16 @@ description: Czy wiesz, że wiele przedmiotów użytkowych oraz usług zostało 
     <div class="services">
 
 <h1 class="event-h1">BAL ARCHITEKTEK. PROJEKTOWANIE FEMINISTYCZNE - WYKŁAD I WARSZTATY</h1>
-
+<div class="image__display">
+<div class="image">
+     <a href="/assets/img/events/02/Janicka_Nawrocka_Wilczyńska_KOLOR.jpg"><img class="image__img" src="/assets/img/events/02/Janicka_Nawrocka_Wilczyńska_KOLOR.jpg"></a>
+    <div class="image__overlay image__overlay--primary">
+        <p class="grid__description">
+            fot. Paweł Jóźwiak
+        </p>
+    </div>
+</div>
+</div>
 <h2 class="event-h2">termin</h2>
 <p>10 września (sobota), godz. 10.00-13.00</p>
 <br>
@@ -32,14 +41,5 @@ description: Czy wiesz, że wiele przedmiotów użytkowych oraz usług zostało 
 @Bal_architektek podejmuje temat kobiet w architekturze. Jego celem jest stworzenie przestrzeni wymiany doświadczeń oraz stworzenie bazy wiedzy o wybitnych architektkach i dobrych praktyk z zakresu feministycznego podejścia do projektowania. Za graficzną stroną BALu odpowiada młoda projektantka, Patrycja Mróz. W 2021 roku BAL wygrał plebiscyt Zmiany Roku organizowany przez Magazyn NOIZZ.
 </p>
 </div>
-<div class="image__display">
-<div class="image">
-     <a href="/assets/img/events/02/Janicka_Nawrocka_Wilczyńska_KOLOR.jpg"><img class="image__img" src="/assets/img/events/02/Janicka_Nawrocka_Wilczyńska_KOLOR.jpg"></a>
-    <div class="image__overlay image__overlay--primary">
-        <p class="grid__description">
-            fot. Paweł Jóźwiak
-        </p>
-    </div>
-</div>
-</div>
+
 </section>

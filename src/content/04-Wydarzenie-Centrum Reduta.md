@@ -11,16 +11,6 @@ description: Dzięki uprzejmości Klubu Wysokogórskiego Trójmiasto otwieramy d
     <div class="services">
 
 <h1 class="event-h1">Centrum Aktywizacji i Integracji Społecznej „Centrum Reduta”</h1>
-
-<h2 class="event-h2">termin</h2>
-<p>11 września (niedziela), godz. 11.00-12.00 (wejście o 11 i 11.30)</p>
-<br>
-<h2 class="event-h2">miejsce</h2>
-<p>ul. Królikarnia 13</p>
-<br>
-<p>Placówka Wsparcia Dziennego „Centrum Reduta" działa na terenie Dolnego Miasta od 13 lat. To tu młodzi ludzie otrzymują wsparcie psychologiczno-pedagogiczno-socjoterapeutyczne, mogą rozwijać swoje zainteresowania na zajęciach muzycznych, artystycznych, tanecznych, teatralnych czy kulinarnych. Do niedawna placówka znajdowała się w dawnym budynku Straży Pożarnej, dziś działa pod nowym adresem - Królikarnia 13.</p>
-<p>Po nowoczesnym budynku dostosowanym specjalnie do potrzeb dzieci i młodzieży oprowadzi Was wychowawczyni oraz arteterapeutka - Gosia Białogłowska.</p>
-</div>
 <div class="image__display">
 <div class="image">
      <a href="/assets/img/events/04/_PAW9629.jpg"><img class="image__img" src="/assets/img/events/04/_PAW9629.jpg"></a>
@@ -31,4 +21,14 @@ description: Dzięki uprzejmości Klubu Wysokogórskiego Trójmiasto otwieramy d
     </div>
 </div>
 </div>
+<h2 class="event-h2">termin</h2>
+<p>11 września (niedziela), godz. 11.00-12.00 (wejście o 11 i 11.30)</p>
+<br>
+<h2 class="event-h2">miejsce</h2>
+<p>ul. Królikarnia 13</p>
+<br>
+<p>Placówka Wsparcia Dziennego „Centrum Reduta" działa na terenie Dolnego Miasta od 13 lat. To tu młodzi ludzie otrzymują wsparcie psychologiczno-pedagogiczno-socjoterapeutyczne, mogą rozwijać swoje zainteresowania na zajęciach muzycznych, artystycznych, tanecznych, teatralnych czy kulinarnych. Do niedawna placówka znajdowała się w dawnym budynku Straży Pożarnej, dziś działa pod nowym adresem - Królikarnia 13.</p>
+<p>Po nowoczesnym budynku dostosowanym specjalnie do potrzeb dzieci i młodzieży oprowadzi Was wychowawczyni oraz arteterapeutka - Gosia Białogłowska.</p>
+</div>
+
 </section>
