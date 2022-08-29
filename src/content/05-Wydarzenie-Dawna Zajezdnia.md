@@ -1,5 +1,5 @@
 ---
-title: Centrum Reduta
+title: Dawna Zajezdnia Tramwajowa "Łąkowa"
 author: Jan Rogalo
 date: 2022-05-02
 tags: [program, sobota, zwiedzanie]
@@ -50,50 +50,4 @@ description: Zajezdnia tramwajowa powstała w roku 1883, na początku jako miejs
 <p>Zajezdnia tramwajowa powstała w roku 1883, na początku jako miejsce gdzie stacjonowały tramwaje konne. Po elektryfikacji pod koniec XIX w. zjeżdżały tu tramwaje, których trasa obejmowała Śródmieście Gdańska. Tramwaje jeździły (z przerwami spowodowanymi zniszczeniami wojennymi) ulicą Łąkową do zajezdni przy ul. Radnej aż do roku 1995, kiedy to zlikwidowano tory prowadzące na ul. Długie Ogrody. W 1999 roku zajezdnię zamknięto, a działalność operacyjną przejęły dwie działające do dziś zajezdnie - Nowy Port i Wrzeszcz. Obie mieliśmy okazję zwiedzić w trakcie poprzednich edycji Open House Gdańsk.</p>
 <p>Obecnie w hali zajezdni znajduje się parking strzeżony, ale nadal można odnaleźć w niej ślady po danej funkcji budynku - szyny, kanały remontowe, stare szyldy oraz numery zawieszone nad bramami wjazdowymi.</p>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="module">
-    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
-    });
-</script>
-
-
-
-
-
-
-
-
 </section>
