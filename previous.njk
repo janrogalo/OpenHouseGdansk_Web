@@ -1,0 +1,31 @@
+---
+title: Open House Gdansk - Poprzednie edycje
+layout: 'base.njk'
+---
+
+<h1>POPRZEDNIE EDYCJE</h1>
+<div class="section-services margin-top">
+
+
+{%- for previous in collections.previous -%}
+
+
+        <div class="section-content border-bottom">
+            <div class="section-image">
+                <img class="previous-icon" src="{{ previous.data.image }}">
+            </div>
+            <div class="section-text ">
+                <h3>{{previous.data.title}}</h3>
+                <p> {{previous.data.description}}</p>
+                <a href="{{previous.url}}">Przeczytaj więcej</a>
+
+            </div>
+        </div>
+
+
+
+
+
+    <hr>
+{%- endfor -%}
+</div>
