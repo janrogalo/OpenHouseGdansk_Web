@@ -21,6 +21,8 @@ body{
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     margin: 0 70px;
 
 }
@@ -297,6 +299,7 @@ ul li ul.dropdown li {
     font-size: 20px;
     margin-bottom: 10px;
     text-decoration: underline;
+
 }
 
 .sidebar{
@@ -382,8 +385,8 @@ ul li ul.dropdown li {
 
 .image__img {
     display: block;
-    overflow: hidden;
     height: 100%;
+    width: 100%;
 }
 
 .image__overlay {
@@ -452,8 +455,7 @@ ul li ul.dropdown li {
 
 .grid__img {
     display: block;
-    width: 230px;
-    height: auto;
+    width: 100%;
 
 }
 
@@ -472,8 +474,11 @@ ul li ul.dropdown li {
 }
 
 .grid-content{
-    padding-left: 10px;
-    margin-top:20px;
+    padding: 15px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -534,6 +539,7 @@ ul li ul.dropdown li {
 
 
 footer{
+    position: relative;
     background-color: #FFFB36;
     display: flex;
     justify-content: left;
@@ -586,12 +592,13 @@ footer a{
 }
 
 
-.list img{
+.list a span img{
     height: 85px;
     padding: 20px;
+    display: inherit;
 }
 
-.list img:hover{
+ .list a span img:hover{
     opacity: 0.5;
 }
 
@@ -671,9 +678,10 @@ footer a:hover{
     }
 
 
-
     main {
         margin: 0 60px;
+        display: inline;
+
     }
 
     .section-text{
@@ -728,28 +736,10 @@ footer a:hover{
        margin-bottom: 30px;
    }
 
-}
-
-
-@media (max-width: 870px){
     .wrapper{
         width: 90vw;
         flex-direction: column-reverse;
         margin-top: 30px;
-    }
-
-    .events{
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-    }
-
-    .event{
-        width: 200px;
-        height: 250px;
-        margin: 0 10px 10px 0px;
     }
 
     .sidebar{
@@ -759,6 +749,26 @@ footer a:hover{
         max-width: 500px;
         padding: 10px;
 
+    }
+
+    .events{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+
+@media (max-width: 870px){
+
+
+    .event{
+        width: 200px;
+        height: 250px;
+        margin: 0 20px 20px 0px;
     }
 
     .display-toggle{
@@ -776,9 +786,6 @@ footer a:hover{
     .button-menu{
         margin: 10px 0;
     }
-
-
-
     .image__display .image:first-child {
         display:block;
     }
@@ -970,11 +977,114 @@ footer a:hover{
     display: none;
 }
 
+/*////////////////////// css - slider ////////////////////*/
+
+
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.slider-container button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    margin: 20px;
+    color: #000000;
+    font-size: 2rem;
+}
+
+button span {
+    position: relative;
+    display: inline-block;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.previous:hover span {
+    transform:  scale(1.2);
+}
+
+.next:hover span {
+    transform:  scale(1.2);
+}
+
+.slider-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-nav li {
+    display: flex;
+    flex: 2;
+    text-align: center;
+}
+
+img {
+    max-height: 60vh;
+    max-width: 60vw;
+    display: none;
+}
+
+img.active {
+    display: block;
+    animation: fadeImg 0.8s;
+}
+
+.slider-nav .arrow {
+    flex: 0 0 15%;
+}
+
+.slider-nav a {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-nav span {
+    display: block;
+    width: 100%;
+}
+
+@keyframes fadeImg {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
 
 @media only screen and (max-width: 960px) {
 
-    .theme{
-        height: 350px;
+
+    .display-left{
+        width: 90vw;
+    }
+
+    .theme h1{
+        font-size: 3.2vw;
+    }
+
+    .theme h2{
+        font-size: 10.371vw;
+        max-width: 95vw;
     }
 
     h1{
@@ -993,16 +1103,20 @@ footer a:hover{
         padding-top: 1vw;
     }
 
+    .section-services{
+    }
     .display-right{
         display:none;
     }
-    .display-right-secondary{
-        display: block;
-        height: 350px;
-        width: auto;
-        margin-right: 40px;
-    }
+
 }
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 700px) {
@@ -1040,10 +1154,14 @@ footer a:hover{
         display:none;
     }
 
-    .display-right-secondary{
-        display: block;
-        width: 86vw;
-        height: auto;
+    img {
+        max-height: 55vh;
+        max-width: 60vw;
+        display: none;
     }
 }
+
+
+
+
 
