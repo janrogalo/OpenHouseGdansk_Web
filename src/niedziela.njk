@@ -13,11 +13,11 @@ layout: 'base.njk'
 
                 <div class="grid event" data-tag="{{program.data.tags}}">
                     <h3 class="event-title">{{program.data.title}}</h3>
-                    <img class="grid__img" src="/assets/img/OHG7/1.jpg" alt="Bricks">
+                    <img class="grid__img" src={{program.data.image}}>
                     <div class="grid__overlay grid__overlay--primary">
                         <div class="grid__title"><h3>{{program.data.title}}</h3></div>
                         <div class="grid-content">
-                            <p class="grid__description">Lokalizacja eventu</p>
+                            <p class="grid__description">{{program.data.location}}</p>
                             <button class="button"><a href="{{program.url}}">Przeczytaj więcej</a></button>
                         </div>
                     </div>

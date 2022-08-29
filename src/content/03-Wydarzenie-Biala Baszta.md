@@ -2,7 +2,7 @@
 title: Biała Baszta
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, niedziela]
+tags: [program, niedziela, zwiedzanie]
 image: "/assets/img/events/03/thumb.jpg"
 imageAlt: Plac Wałowy i Okolice
 location: ul. Augustyńskiego 3
