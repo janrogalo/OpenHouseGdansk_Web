@@ -190,8 +190,8 @@ ul li ul.dropdown li {
     font-style: normal;
 }
 .section-title{
-    margin: 30px 3.5vw 0 4.668vw;
-    padding-bottom: 30px;
+    margin: 1vw 3.5vw 0 4.668vw;
+    padding-bottom: 1vw;
 }
 .sub{
     color: #000;
@@ -495,11 +495,13 @@ ul li ul.dropdown li {
     transition: transform 0.25s;
 }
 
-.grid__overlay:hover {
+.grid__overlay:hover,
+.grid__overlay:active{
     opacity: 0.9;
 }
 
-.grid__overlay:hover > * {
+.grid__overlay:hover > *,
+.grid__overlay:active > *{
     transform: translateY(0);
 }
 
@@ -531,7 +533,9 @@ ul li ul.dropdown li {
     width: 150px;
 }
 
-.grid button a:hover{
+.grid button a:hover,
+.grid button a:active,
+{
     background-color: #000;
 }
 
@@ -617,10 +621,12 @@ footer a:hover{
         overflow-x: hidden;
     }
     .sub{
-        font-size: 2.571vw;
+        font-size: 3.571vw;
     }
 
-
+.section-title{
+    font-size: 6vw;
+}
     .nav-links {
         position: absolute;
         height: 500px;
@@ -680,7 +686,6 @@ footer a:hover{
         width: auto;
         margin-bottom: 40px;
     }
-
 
     main {
         margin: 0 60px;
