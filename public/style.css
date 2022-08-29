@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
-
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #FFFB36;
 }
@@ -23,7 +21,8 @@ body{
 }
 
 main {
-    margin: 0px 70px;
+    margin: 0 70px;
+
 }
 
 .header .logo:hover{
@@ -36,6 +35,7 @@ p, h1{
 
 h1{
     font-family: swear-display-cilati, sans-serif;
+    text-transform: uppercase;
 }
 
 p{
@@ -55,31 +55,27 @@ p{
 nav{
     display: flex;
     align-items: center;
-    margin-left: 4.688vw;
     background: #FFFB36;
+    margin-left: 4.668vw;
 }
 
 .nav-links{
     display: flex;
     font-family: obviously, sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 14px;
     padding-left: 40px;
 }
 
 .logo{
-    background-color: skyblue;
-    width:40px;
-    height: 40px;
+    width:60px;
+    height: 60px;
 }
 .nav-links a{
     color: #000;
 }
 
-
 .nav-links button a{
-    color: #fff;
+    color: #000;
 }
 
 .nav-links button a:hover{
@@ -90,7 +86,6 @@ nav{
     position: absolute;
     left: 270px;
     justify-content: left;
-
 }
 
 .right {
@@ -111,12 +106,12 @@ nav{
     align-items: center;
     padding-right: 30px;
     text-transform: uppercase;
-
 }
+
 .nav-links a{
     text-decoration: none;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .img-margins{
@@ -147,14 +142,14 @@ nav{
     position: absolute;
     height: 60px;
     top: 5.9rem;
-    left: 198px;
+    left: 247px;
     width: 100%;
     z-index: 999;
     padding-top: 10px;
 }
 
 .dropdown-program {
-    left: 286px;
+    left: 355px;
 }
 
 ul li:hover ul.dropdown {
@@ -165,11 +160,13 @@ ul li ul.dropdown li {
     margin-top: 5px;
     font-size: 11px;
 }
+.dropdown-item a{
+    font-size: 11px;
+}
 
 .services {
-    column-count: 2;
-    column-gap: 60px;
-    width: 82vw;
+    /*column-count: 2;*/
+    /*column-gap: 60px;*/
     margin-bottom: 40px;
 
 }
@@ -182,15 +179,10 @@ ul li ul.dropdown li {
     margin: 30px 3.5vw 0 4.668vw;
 }
 
-
-
-
-
-
-
 .section-services p {
     margin-bottom: 10px;
     line-height: 1.5;
+    font-size: 13px;
     color: #000;
     font-family: obviously, sans-serif;
     font-style: normal;
@@ -203,9 +195,8 @@ ul li ul.dropdown li {
     color: #000;
     font-family: obviously, sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 1.571vw;
-};
+}
 
 .section-title h1{
     color: #000;
@@ -214,18 +205,17 @@ ul li ul.dropdown li {
     font-style: normal;
     text-transform: uppercase;
     font-size: 2.223vw;
-};
+}
 
-
-
-
+.main-title{
+    margin-left: 4.668vw;
+}
 .section-services h4 {
     font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: underline;
-    margin: 30px 0px;
+    margin: 30px 0;
 }
-
 
 .section-content{
     display: flex;
@@ -249,11 +239,7 @@ ul li ul.dropdown li {
 .full-text{
     margin-left: 20px;
     margin-right: 6vw;
-
 }
-
-
-
 
 .previous-icon{
     width: 350px;
@@ -276,6 +262,7 @@ ul li ul.dropdown li {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    margin-left: 4.4vw;
 }
 
 
@@ -289,7 +276,27 @@ ul li ul.dropdown li {
 .event{
     width: 200px;
     height: 250px;
-    margin: 0 10px 10px 0px;
+    margin: 0 10px 10px 0;
+}
+
+.event-h1{
+    color: #000;
+    font-family: obviously, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.571vw;
+    margin-bottom: 30px;
+}
+
+
+.event-h2{
+    color: #000;
+    font-family: obviously, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.271vw;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .sidebar{
@@ -310,8 +317,11 @@ ul li ul.dropdown li {
 .display-toggle a{
     padding: 10px 10px;
 }
+
 .event-title{
-    padding: 10px 10px 10px 0;
+    font-family: swear-display-cilati, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0;
 }
 
 .button-menu{
@@ -324,7 +334,7 @@ ul li ul.dropdown li {
 .button{
     padding: 10px;
     background-color: #FFFFFF;
-    width: 120px;
+    width: 130px;
     border: 1px solid #000;
     margin-bottom: 10px;
 }
@@ -343,9 +353,14 @@ ul li ul.dropdown li {
     color: white;
 }
 
+.button-menu button a{
+    background-color: #FFFFFF;
+    padding: 10px 25px;
+}
 
-
-
+.button-menu button a:hover{
+    background-color: #000;
+}
 
 /*// IMAGE OVERLAY*/
 
@@ -361,12 +376,12 @@ ul li ul.dropdown li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .image__img {
     display: block;
-    width: 100%;
+    overflow: hidden;
+    height: 100%;
 }
 
 .image__overlay {
@@ -390,8 +405,7 @@ ul li ul.dropdown li {
 }
 
 .image__overlay--primary {
-    background: #FFF;
-
+    background: #FFFB36;
 }
 
 .image__overlay > * {
@@ -423,7 +437,7 @@ ul li ul.dropdown li {
 .grid {
     position: relative;
     width: 200px;
-    height: 230px;
+    height: 240px;
     margin: 10px;
     overflow-y: hidden;
 }
@@ -432,12 +446,13 @@ ul li ul.dropdown li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .grid__img {
     display: block;
-    height: 100%;
+    width: 230px;
+    height: auto;
+
 }
 
 .grid__overlay {
@@ -456,7 +471,7 @@ ul li ul.dropdown li {
 
 .grid-content{
     padding-left: 10px;
-    margin-top: 130px;
+    margin-top:20px;
 }
 
 
@@ -465,8 +480,7 @@ ul li ul.dropdown li {
 }
 
 .grid__overlay--primary {
-    background: #FFF;
-
+    background: #FFFB36;
 }
 
 .grid__overlay > * {
@@ -484,12 +498,36 @@ ul li ul.dropdown li {
 
 .grid__title {
     font-size: 1em;
+    font-family: swear-display-cilati, sans-serif;
+    text-transform: uppercase;
 }
 
 .grid__description {
-    font-size: 1em;
+    font-size: 0.8em;
+    font-family: obviously, sans-serif;
+    font-weight: 600;
     margin-top: 0.25em;
 }
+
+
+.grid a{
+    font-size: 0.8em;
+    font-family: obviously, sans-serif;
+    font-weight: 600;
+    margin-top: 0.25em;
+    background-color: #FFFFFF;
+    padding: 9.5px;
+}
+
+.grid button{
+    width: 150px;
+}
+
+.grid button a:hover{
+    background-color: #000;
+}
+
+
 
 
 footer{
@@ -505,7 +543,6 @@ footer{
     padding: 80px;
 }
 
-
 .footer-info{
     display: flex;
     flex-direction: column;
@@ -514,14 +551,18 @@ footer{
 
 
 footer p{
-    font-size: 14px;
+    font-size: 13px;
     padding-bottom: 10px
 }
 
 footer h4{
     padding-left: 20px;
-    margin-bottom 40px;
     text-decoration: underline;
+    font-size: 15px;
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
 }
 
 footer a{
@@ -543,7 +584,7 @@ footer a{
 
 
 .list img{
-    width: 140px;
+    height: 85px;
     padding: 20px;
 }
 
@@ -570,16 +611,14 @@ footer a:hover{
         position: absolute;
         height: 500px;
         top: 7rem;
-        left: 0px;
+        left: 0;
         width: 100%;
         background-color: #FFFB36;
         display: flex;
         flex-direction: column;
         transform: translateX(100%);
-        padding: 30px 0px 0px 60px;
+        padding: 30px 0 0 60px;
     }
-
-
 
     .nav-links li {
         opacity: 0;
@@ -590,7 +629,7 @@ footer a:hover{
     .right{
         position: absolute;
         margin-top: 50px;
-        left: 0px
+        left: 0;
     }
 
     .burger {
@@ -612,7 +651,7 @@ footer a:hover{
 
 
     .section-services {
-        padding: 1rem 0 1rem 0;
+        padding: 1rem 0;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -628,19 +667,14 @@ footer a:hover{
         margin-bottom: 40px;
     }
 
-    .section-hero p,
-    .section-services p {
-        font-size: 0.9rem;
-        margin-bottom: 20px;
-        line-height: 1.5;
-    }
+
 
     main {
-        margin: 0px 60px;
+        margin: 0 60px;
     }
 
     .section-text{
-        margin:20px 0 0 0px;
+        margin:20px 0 0 0;
     }
 
     .section-content{
@@ -654,10 +688,9 @@ footer a:hover{
     }
 
 
-
-
     footer{
         justify-content: left;
+        margin-left: 4.668vw;
     }
 
     .footer-block{
@@ -679,12 +712,12 @@ footer a:hover{
 
     .footer-logos-inline{
         justify-content: left;
+        flex-wrap: wrap;
     }
 
-    .list img{
-        width: 100px;
-        padding: 20px;
-    }
+
+
+
 
     .section-content{
         display: flex;
@@ -698,11 +731,9 @@ footer a:hover{
 @media (max-width: 870px){
     .wrapper{
         width: 90vw;
-        display: flex;
         flex-direction: column-reverse;
         margin-top: 30px;
     }
-
 
     .events{
         width: 80%;
@@ -736,7 +767,7 @@ footer a:hover{
         padding: 10px 10px;
     }
     .event-title{
-        padding: 10px 10px 10px 0;
+        padding: 10px 0px 10px 0;
     }
 
     .button-menu{
@@ -924,24 +955,21 @@ footer a:hover{
 }
 
 
-
-@media only screen and (max-width: 1400px) {
-
-}
-
 @media only screen and (max-width: 960px) {
+
+    .theme{
+        height: 350px;
+    }
 
     h1{
         font-size: 2vw;
     }
 
     h2{
-
         font-size: 6.171vw;
         margin-top: 1.5vw;
         margin-bottom: 1.563vw;
     }
-
 
     .titles p{
         text-align: left;
@@ -949,87 +977,57 @@ footer a:hover{
         padding-top: 1vw;
     }
 
-
     .display-right{
         display:none;
     }
     .display-right-secondary{
         display: block;
-        position: absolute;
-        top: 4.688vw;
-        left: 49vw;
-        height: 70vw;
+        height: 350px;
+        width: auto;
+        margin-right: 40px;
     }
 }
 
 
 @media only screen and (max-width: 700px) {
 
+    .theme{
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .titles{
-        position: absolute;
-        margin-left: 7vw;
-        top: 30.958vw;
         width: 100vw;
     }
 
-    h1{
+ .display-left{
+     width: 90vw;
+ }
+
+    .theme h1{
         font-size: 3.2vw;
     }
 
-    h2{
-
-        font-size: 12.171vw;
-        margin-top: 1.5vw;
-        margin-bottom: 1.563vw;
+    .theme h2{
+        font-size: 10.371vw;
         max-width: 95vw;
     }
 
-
     .titles p{
         text-align: left;
-        padding-right: 3.125vw;
-        padding-top: 1vw;
+        font-size: 3.2vw;
+        padding: 1vw 3.125vw 5vw 0;
     }
 
-
-    .contacts{
-        flex-direction: column;
-        top: 185.729vw;
-        width: 100vw;
-    }
-
-    .contacts p{
-        font-size: 4.06vw;
-    }
-
-    .contacts a{
-        font-size: 3.4vw;
-    }
-
-    .emails{
-        margin-bottom: 5vw;
-    }
-
-    .icons{
-        top: 220.500vw;
-    }
     .display-right{
         display:none;
     }
+
     .display-right-secondary{
         display: block;
-        position: absolute;
-        top: 80.688vw;
-        left: 7vw;
         width: 86vw;
         height: auto;
-
-    }
-
-    .icons a{
-        margin-right: 3vw;
-        margin-bottom: 30px;
     }
 }
 
