@@ -10,8 +10,11 @@ layout: 'base.njk'
 <div class="events">
 
     {%- for program in collections.program -%}
-<div class="event-wrapper">
+
         <div class="grid event" data-tag="{{program.data.tags}}">
+            {% if program.data.tags.includes("zapisy") %}
+            <div class="reserve">R</div>
+            {% endif %}
             <div class="grid-title-container"><h3 class="event-title">{{program.data.title}}</h3></div>
             <img class="grid__img" src={{program.data.image}} alt="Bricks">
             <div class="grid__overlay grid__overlay--primary">
@@ -20,7 +23,7 @@ layout: 'base.njk'
                 <button class="button"><a href="{{program.url}}">Przeczytaj więcej</a></button>
                 </div>
             </div>
-        </div>
+
 </div>
 
     {%- endfor -%}
@@ -42,6 +45,11 @@ layout: 'base.njk'
     <button class="button" id="wystawa">Wystawa</button>
     <button class="button" id="koncert">Koncert</button>
     <button class="button" id="wszystkie">Wszystkie</button>
+<div>
+    <p class="absolute-text">*Wymaga <br>rezerwacji -></p>
+    <div class="reserve-2">R</div>
+
+</div>
     </div>
 </div>
 </div>

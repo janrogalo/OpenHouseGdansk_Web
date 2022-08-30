@@ -2,7 +2,7 @@
 title: Mieszkanie Asi i Natalii
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, niedziela, sobota, zwiedzanie]
+tags: [program, niedziela, sobota, zwiedzanie, zapisy]
 image: "/assets/img/events/19/thumb.jpg"
 location: ul. Zielona 1
 description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez nieznajomą osobę, która zaoferowała nam pomoc i zaprosiła do wnętrza lokalu, w którym pracuje. Tą osobą okazała się Danuta Płuzińska, a miejscem Inkubator Sąsiedzkiej Energii. I tak oto znaleźliśmy się w miejscu przepełnionym otwartością, życzliwością i energią!
@@ -14,7 +14,22 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 <h1 class="event-h1">Mieszkanie Asi i Natalii</h1>
 
 <h2 class="event-h2">termin</h2>
-<p>10-11 września (sobota, niedziela), godz. 11.00-16.00 (wejścia co godzinę)</p>
+
+<p>10 września</p>
+<p class="tab">11.00-12.00</p>
+<p class="tab">12.00-13.00</p>
+<p class="tab">13.00-14.00</p>
+<p class="tab">14.00-15.00</p>
+<p class="tab">15.00-16.00</p>
+<p>11 września</p>
+<p class="tab">11.00-12.00</p>
+<p class="tab">12.00-13.00</p>
+<p class="tab">13.00-14.00</p>
+<p class="tab">14.00-15.00</p>
+<p class="tab">15.00-16.00</p>
+<br>
+
+
 
 <h2 class="event-h2">miejsce</h2>
 <p>ul. Zielona 1</p>
@@ -38,12 +53,12 @@ Tutaj każdy przedmiot ma swój kontekst i opowieść. Zapytajcie Asię i Natali
 </ul>
 </nav>
   <div class="slider">
-    <a href=""/assets/img/events/19/TO.jpg"><img class="active" src="/assets/img/events/19/TO.jpg"></a>
-    <img src="/assets/img/events/19/2.jpg">
-    <img src="/assets/img/events/19/3.jpg">
-    <img src="/assets/img/events/19/4.jpg">
-    <img src="/assets/img/events/19/5.jpg">
-    <img src="/assets/img/events/19/6.jpg">
+     <a href="/assets/img/events/19/TO.jpg"><img class="active" src="/assets/img/events/19/TO.jpg"></a>
+   <a href="/assets/img/events/19/2.jpg"><img src="/assets/img/events/19/2.jpg"></a>
+   <a href="/assets/img/events/19/3.jpg"><img src="/assets/img/events/19/3.jpg"></a>
+  <a href="/assets/img/events/19/4.jpg"><img src="/assets/img/events/19/4.jpg"></a>
+  <a href="/assets/img/events/19/5.jpg"><img src="/assets/img/events/19/5.jpg"></a>
+  <a href="/assets/img/events/19/6.jpg"><img src="/assets/img/events/19/6.jpg"></a>
   </div>
 <nav class="slider-nav">
     <ul>

@@ -12,19 +12,10 @@ description: Dajcie się zabrać na spacer z osobą, która o Starym Przedmieśc
     <div class="services">
 
 <h1 class="event-h1">Plac Wałowy i okolice – jedyny taki spacer z podwójnym OH</h1>
-<div class="image__display">
-<div class="image">
-    <a href="/assets/img/events/01/301671011_1045665682812923_3096170227842304244_n.png"><img class="image__img" src="/assets/img/events/01/301671011_1045665682812923_3096170227842304244_n.png" alt="Bricks"></a>
-    <div class="image__overlay image__overlay--primary">
-        <p class="grid__description">
-            fot. Paweł Jóźwiak
-        </p>
-    </div>
-</div>
-</div>
 
 <h2 class="event-h2">termin</h2>
-<p>11 września (niedziela), godz. 12.00-14.00</p>
+<p>11 września</p>
+<p class="tab">12.00-14.00</p>
 <br>
 <h2 class="event-h2">miejsce</h2>
 <p>zbiórka przy nieczynnej fontannie na placu Wałowym</p>
@@ -33,9 +24,21 @@ description: Dajcie się zabrać na spacer z osobą, która o Starym Przedmieśc
 <br>
 <h2 class="event-h2">osoba prowadząca</h2>
 <p>Jacek Górski - od urodzenia mieszkaniec Dolnego Miasta. Opowiadacz Historii Dolnego Miasta w Gdańsku. Lokalny przewodnik po Dolnym Mieście. Archiwista społeczny. W wolnym czasie, którego ma bardzo mało, układa krzyżówki, słucha muzyki pop z lat 80. albo gra w planszówki.</p>
+<div class="slider-container"><nav class="slider-nav"><ul><li><button class="previous"><span><</span></button></li></ul></nav>
+  <div class="slider">
+   <a href="/assets/img/events/01/301671011_1045665682812923_3096170227842304244_n.png"><img class="active" src="/assets/img/events/01/301671011_1045665682812923_3096170227842304244_n.png"></a>
+  </div>
+<nav class="slider-nav"><ul><li><button class="next"><span>></span></button></li></ul></nav></div>
+<br>
+<p>fot.Opowiadacze Historii</p>
 </div>
-
-
-
-
 </section>
+    <script src="/assets/scripts/slider.js"></script>
+
+
+
+
+
+
+
+

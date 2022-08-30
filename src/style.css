@@ -299,6 +299,7 @@ ul li ul.dropdown li {
     font-style: normal;
     font-size: 3.571vw;
     margin-bottom: 30px;
+    padding: 10px 20px;
 }
 
 
@@ -322,21 +323,39 @@ ul li ul.dropdown li {
 
 }
 
-.display-toggle{
-    display: inline;
-    padding-bottom: 10px;
+.reserve{
+    position: absolute;
+    right: 5px;
+    background-color: #000;
+    color: #FFF;
+    font-family: swear-display-cilati, sans-serif;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 5px 8px;
 }
 
-
-.display-toggle a{
-    padding: 10px 10px;
+.reserve-2{
+    position: absolute;
+    background-color: #000;
+    color: #FFF;
+    font-family: swear-display-cilati, sans-serif;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 5px 8px;
 }
+
+.absolute-text{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
 
 .event-title{
     font-family: swear-display-cilati, sans-serif;
     text-transform: uppercase;
     padding: 10px 0px 10px 0;
     text-align: center;
+    line-height: 0.9;
 }
 
 .button-menu{

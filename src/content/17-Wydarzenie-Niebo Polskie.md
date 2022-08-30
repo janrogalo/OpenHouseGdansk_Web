@@ -2,7 +2,7 @@
 title: Niebo polskie
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, sobota, niedziela, zwiedzanie]
+tags: [program, sobota, niedziela, zwiedzanie, zapisy]
 image: "/assets/img/events/17/thumb.jpg"
 location: ul. Jana Augustyńskiego 1
 description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez nieznajomą osobę, która zaoferowała nam pomoc i zaprosiła do wnętrza lokalu, w którym pracuje. Tą osobą okazała się Danuta Płuzińska, a miejscem Inkubator Sąsiedzkiej Energii. I tak oto znaleźliśmy się w miejscu przepełnionym otwartością, życzliwością i energią!
@@ -13,7 +13,13 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 
 <h1 class="event-h1">Malowidło sufitowe “Niebo polskie” w auli dawnego Gimnazjum Polskiej Macierzy Szkolnej w Gdańsku</h1>
 <h2 class="event-h2">termin</h2>
-<p>10-11 września (sobota, niedziela), godz. 12.00 i 14.00</p>
+<p>10 września</p>
+<p class="tab">12.00</p>
+<p class="tab">14.00</p>
+<p>11 września</p>
+<p class="tab">12.00</p>
+<p class="tab">14.00</p>
+<br>
 <br>
 <h2 class="event-h2">miejsce</h2>
 <p>ul. Jana Augustyńskiego 1</p>
@@ -38,9 +44,8 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 </ul>
 </nav>
   <div class="slider">
-    <img class="active" src="/assets/img/events/17/Polskie Niebo.png">
-    <img src="/assets/img/events/17/_PAW9714.jpg">
-
+    <a href="/assets/img/events/17/Polskie Niebo.png"><img class="active" src="/assets/img/events/17/Polskie Niebo.png"></a>
+    <a href="/assets/img/events/17/_PAW9714.jpg"><img src="/assets/img/events/17/_PAW9714.jpg"></a>
   </div>
 <nav class="slider-nav">
     <ul>

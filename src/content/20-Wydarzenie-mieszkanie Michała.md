@@ -2,7 +2,7 @@
 title: Mieszkanie Michała
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, niedziela, zwiedzanie]
+tags: [program, niedziela, zwiedzanie, zapisy]
 image: "/assets/img/events/20/thumb.jpg"
 location: ul. Podwale Przedmiejskie 24
 description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez nieznajomą osobę, która zaoferowała nam pomoc i zaprosiła do wnętrza lokalu, w którym pracuje. Tą osobą okazała się Danuta Płuzińska, a miejscem Inkubator Sąsiedzkiej Energii. I tak oto znaleźliśmy się w miejscu przepełnionym otwartością, życzliwością i energią!
@@ -59,7 +59,7 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
     </ul>
   </nav>
 </div>
-
+<br>
 <p>fot.Paweł Jóźwiak</p>
 </section>
     <script src="/assets/scripts/slider.js"></script>

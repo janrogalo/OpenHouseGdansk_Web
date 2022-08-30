@@ -2,7 +2,7 @@
 title: Mieszkanie Agi
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, niedziela, zwiedzanie]
+tags: [program, niedziela, zwiedzanie, zapisy]
 image: "/assets/img/events/18/thumb.jpg"
 location: ul. Okopowa 17a
 description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez nieznajomą osobę, która zaoferowała nam pomoc i zaprosiła do wnętrza lokalu, w którym pracuje. Tą osobą okazała się Danuta Płuzińska, a miejscem Inkubator Sąsiedzkiej Energii. I tak oto znaleźliśmy się w miejscu przepełnionym otwartością, życzliwością i energią!
@@ -14,7 +14,11 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 <h1 class="event-h1">Mieszkanie Agi</h1>
 
 <h2 class="event-h2">termin</h2>
-<p>11 września (niedziela), godz. 16:00-17.30 (3 wejścia co pół godziny)</p>
+<p>
+<p>11 września</p>
+<p class="tab">16.00-16.30</p>
+<p class="tab">16.30-17.00</p>
+<p class="tab">17.00-17.30</p>
 <br>
 <h2 class="event-h2">miejsce</h2>
 <p>ul. Okopowa 17a</p>
@@ -38,11 +42,11 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 </ul>
 </nav>
   <div class="slider">
-    <img class="active" src="/assets/img/events/18/TO.jpg">
-    <img src="/assets/img/events/18/2.jpg">
-    <img src="/assets/img/events/18/3.jpg">
-    <img src="/assets/img/events/18/4.jpg">
-    <img src="/assets/img/events/18/5.jpg">
+   <a href="/assets/img/events/18/TO.jpg"><img class="active" src="/assets/img/events/18/TO.jpg"></a>
+   <a href="/assets/img/events/18/2.jpg"><img src="/assets/img/events/18/2.jpg"></a>
+   <a href="/assets/img/events/18/3.jpg"><img src="/assets/img/events/18/3.jpg"></a>
+  <a href="/assets/img/events/18/4.jpg"><img src="/assets/img/events/18/4.jpg"></a>
+  <a href="/assets/img/events/18/5.jpg"><img src="/assets/img/events/18/5.jpg"></a>
   </div>
 <nav class="slider-nav">
     <ul>

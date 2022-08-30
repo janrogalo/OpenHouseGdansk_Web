@@ -2,7 +2,7 @@
 title: LPP - centrala
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, sobota, zwiedzanie]
+tags: [program, sobota, zwiedzanie, zapisy]
 image: "/assets/img/events/16/thumb.jpg"
 location: ul. Łąkowa 39/44
 description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez nieznajomą osobę, która zaoferowała nam pomoc i zaprosiła do wnętrza lokalu, w którym pracuje. Tą osobą okazała się Danuta Płuzińska, a miejscem Inkubator Sąsiedzkiej Energii. I tak oto znaleźliśmy się w miejscu przepełnionym otwartością, życzliwością i energią!
@@ -11,9 +11,11 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 <section class="section-services">
     <div class="services">
 
-<h1 class="event-h1">LPP - centrala</h1>
+<h1 class="event-h1">LPP</h1>
 <h2 class="event-h2">termin</h2>
-<p>0 września (sobota), godz. 11.00-13.00 (wejścia co godzinę)</p>
+<p>10 września/<p>
+<p class="tab">11.00-12.00</p>
+<p class="tab">12.00-13.00</p>
 <br>
 <h2 class="event-h2">miejsce</h2>
 <p>ul. Łąkowa 39/44</p>
@@ -35,14 +37,12 @@ description: Spacerując po Dolnym Mieście, zostaliśmy zaczepieni przez niezna
 </ul>
 </nav>
   <div class="slider">
-    <img class="active" src="/assets/img/events/16/1.jpg">
- <img src="/assets/img/events/16/203_LPP_LAKOWA_L_s.jpg">
- <img src="/assets/img/events/16/207_LPP_LAKOWA_L_s.jpg">
- <img src="/assets/img/events/16/212_LPP_LAKOWA_L_s.jpg">
- <img src="/assets/img/events/16/214_LPP_LAKOWA_L_s.jpg">
-    <img src="/assets/img/events/16/220_LPP_LAKOWA_L_s.jpg">
-
-
+   <a href="/assets/img/events/16/1.jpg"><img class="active" src="/assets/img/events/16/1.jpg"></a> 
+  <a href="/assets/img/events/16/203_LPP_LAKOWA_L_s.jpg"><img src="/assets/img/events/16/203_LPP_LAKOWA_L_s.jpg"></a> 
+   <a href="/assets/img/events/16/207_LPP_LAKOWA_L_s.jpg"><img src="/assets/img/events/16/207_LPP_LAKOWA_L_s.jpg"></a> 
+   <a href="/assets/img/events/16/212_LPP_LAKOWA_L_s.jpg"><img src="/assets/img/events/16/212_LPP_LAKOWA_L_s.jpg"></a> 
+   <a href="/assets/img/events/16/214_LPP_LAKOWA_L_s.jpg"><img src="/assets/img/events/16/214_LPP_LAKOWA_L_s.jpg"></a> 
+   <a href="/assets/img/events/16/220_LPP_LAKOWA_L_s.jpg"> <img src="/assets/img/events/16/220_LPP_LAKOWA_L_s.jpg"></a> 
   </div>
 <nav class="slider-nav">
     <ul>

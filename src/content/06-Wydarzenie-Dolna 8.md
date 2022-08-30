@@ -2,7 +2,7 @@
 title: Dolna Brama 8
 author: Jan Rogalo
 date: 2022-05-02
-tags: [program, sobota, niedziela, zwiedzanie, wykład]
+tags: [program, sobota, niedziela, zwiedzanie, wykład, zapisy]
 image: "/assets/img/events/06/thumb.jpg"
 location:  ul. Dolna Brama 8
 description: Narożna kamienica przy ulicy Dolna Brama 8 mieści w sobie ogrom opowieści. W roku 1949 została odbudowana po wojennych zniszczeniach...
@@ -11,42 +11,17 @@ description: Narożna kamienica przy ulicy Dolna Brama 8 mieści w sobie ogrom o
     <div class="services">
 
 <h1 class="event-h1">DOLNA BRAMA 8</h1>
-<div class="image__display">
-<div class="image">
-     <a href="/assets/img/events/06/TO PIERWSZE.jpg"><img class="image__img" src="/assets/img/events/06/TO PIERWSZE.jpg"></a>
-    <div class="image__overlay image__overlay--primary">
-        <p class="grid__description">
-            fot. Paweł Jóźwiak
-        </p>
-    </div>
-</div>
-<div class="image">
-     <a href="/assets/img/events/06/DRUGIE.jpg"><img class="image__img" src="/assets/img/events/06/DRUGIE.jpg"></a>
-    <div class="image__overlay image__overlay--primary">
-        <p class="grid__description">
-            fot. Paweł Jóźwiak
-        </p>
-    </div>
-</div>
-<div class="image">
-     <a href="/assets/img/events/06/TRZECIE.jpg"><img class="image__img" src="/assets/img/events/06/TRZECIE.jpg"></a>
-    <div class="image__overlay image__overlay--primary">
-        <p class="grid__description">
-            fot. Paweł Jóźwiak
-        </p>
-    </div>
-</div>
-</div>
 
 <h2 class="event-h2">termin</h2>
-<p>termin | 10-11 września (sobota, niedziela), budynek otwarty dla zwiedzających w godz. 10.00-17.00</p>
-<p>+ dedykowane oprowadzania na zapisy:<p>
-<br>
-<p>10 września (sobota)</p>
+<p>10 września</p>
+<p>budynek otwarty dla zwiedzających w godz. 10.00-17.00</p>
+<p>dedykowane oprowadzania na zapisy:<p>
 <p>godz. 13.00-14.00 | „Miejsce wspólne w remoncie”</p>
 <p>godz. 16.00-17.00 | „Miejsce wspólne w kryzysie”</p>
 <br>
-<p>11 września (niedziela)</p>
+<p>11 września</p>
+<p>budynek otwarty dla zwiedzających w godz. 10.00-17.00</p>
+<p>dedykowane oprowadzania na zapisy:<p>
 <p>godz. 13.00-14.00 | „Miejsca wspólne – o równości”</p>
 <p>godz. 16.00-17.00 | „Miejsca wspólne – infrastruktura dla demokracji”</p>
 <br>
@@ -70,5 +45,17 @@ description: Narożna kamienica przy ulicy Dolna Brama 8 mieści w sobie ogrom o
 <p>10.00 – 17.00 - Godziny otwarcia: w tym czasie możliwe jest samodzielne zwiedzanie budynku</p>
 <p>13.00 – 14.00 – Zwiedzanie „Miejsca wspólne – o równości” – oprowadzanie Zuzanna Cichoń, gościni: Barbara Borowiak  (Obie z Wydziału Rozwoju Społecznego) (obowiązują zapisy)</p>
 <p>16.00 – 17.00 – Zwiedzanie „Miejsca wspólne – infrastruktura dla demokracji” – oprowadzanie Michał Zorena (Wydział Rozwoju Społecznego), gościni: Zastępczyni Prezydenta Miasta Gdańska Monika Chabior (obowiązują zapisy)</p>
-</p>
+<div class="slider-container"><nav class="slider-nav"><ul><li><button class="previous"><span><</span></button></li></ul></nav>
+  <div class="slider">
+   <a href="/assets/img/events/06/TO PIERWSZE.jpg"><img class="active" src="/assets/img/events/06/TO PIERWSZE.jpg"></a>
+<a href="/assets/img/events/06/DRUGIE.jpg"><img  src="/assets/img/events/06/DRUGIE.jpg"></a>
+<a href="/assets/img/events/06/TRZECIE.jpg"><img  src="/assets/img/events/06/TRZECIE.jpg"></a>
+  </div>
+<nav class="slider-nav"><ul><li><button class="next"><span>></span></button></li></ul></nav></div>
+<br>
+<p>fot.Paweł Jóźwiak</p>
+</div>
 </section>
+    <script src="/assets/scripts/slider.js"></script>
+
+
